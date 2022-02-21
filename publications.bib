@@ -1,3 +1,59 @@
+@techreport{brickner2022postclosure,
+  title = {Post-closure Nuclear Criticality Safety Evaluations for Disposition of Criticality Control Overpacks at the Waste Isolation Pilot Plant},
+  author = {Brickner, Bret and Cumberland, Riley and Reed, Richard and Lang, Alex},
+  number={ORNL/TM-2021/2046},
+  month={Feb},
+  year={2022},
+  institution={Oak Ridge National Laboratory},
+  address={Oak Ridge, TN, USA}
+}
+
+@article{reed2021extension,
+  title = {Extension of the discrete generalized multigroup method using SPH factors},
+  journal = {Annals of Nuclear Energy},
+  volume = {167},
+  pages = {108832},
+  year = {2022},
+  issn = {0306-4549},
+  doi = {https://doi.org/10.1016/j.anucene.2021.108832},
+  url = {https://www.sciencedirect.com/science/article/pii/S030645492100709X},
+  author = {Richard L. Reed and Jeremy A. Roberts},
+  keywords = {Discrete generalized multigroup, Superhomogénéisation (SPH) factors, Proper orthogonal decomposition},
+  abstract = {The discrete generalized multigroup (DGM) method provides a way to treat the energy dependence of neutron transport similarly to the standard multigroup approximation. However, DGM uses an orthogonal basis to retain the energy dependence in higher-order terms. Using correction factors similar to traditional Superhomogénéisation (SPH) factors, the DGM method may be extended to produce cross sections that are homogenized over both space and energy. Since some fine-group energy dependence is retained, the resulting homogenized cross sections are more problem-independent than cross sections homogenized by SPH factors alone. In particular, a 44-group set of cross sections is collapsed to approximately a 1% error in the pincell fission densities for a test problem using three DOF per coarse energy group. 22Notice: This manuscript has been authored by UT-Battelle, LLC, under contract DE-AC05-00OR22725 with the US Department of Energy (DOE). The US government retains and the publisher, by accepting the article for publication, acknowledges that the US government retains a nonexclusive, paid-up, irrevocable, worldwide license to publish or reproduce the published form of this manuscript, or allow others to do so, for US government purposes. DOE will provide public access to these results of federally sponsored research in accordance with the DOE Public Access Plan ( http://energy.gov/downloads/doe-public-access-plan).}
+}
+
+@article{uribe2021accountable,
+  title={Accountable Nuclear Material Production from Fissile Isotope Precursors in Advanced Fuel Cycles: The Case of Protactinium-233},
+  author={Uribe, Eva C. and Gilbert, S. Matt and Worrall, Louise G. and Luciano, Nicholas P. and Reed, Richard L. and McGirl, Natalie A. and Powers, Jeffrey J.},
+  journal={Proceedings of the Institute of Nuclear Materials Management (INMM) 62nd Annual Meeting},
+  year={2021},
+  Month={Aug},
+  address={Vienna, Austria},
+  publisher={Institute of Nuclear Materials Management}
+}
+
+@techreport{robertson1968two,
+  title={Two-fluid molten-salt breeder reactor design study (status as of January 1, 1968)},
+  author={Robertson, R.C. and Smith, O. L. and Briggs, R. B. and Bettis, E. S.},
+  number={ORNL-4528},
+  month={Aug},
+  year={1970},
+  institution={Oak Ridge National Laboratory},
+  address={Oak Ridge, TN, USA}
+}
+
+@techreport{worrall2021safeguards,
+title = {Safeguards Technology for Thorium Fuel Cycles: Research and Development Needs Assessment and Recommendations},
+author = {Worrall, Louise G. and Henzl, Vlad and Swift, Alicia and Luciano, Nicholas P. and Cervi, Eric and Cooley, Jill and Davies, Bryn and Denton, Joanna S. and Favalli, Andrea and Grogan, Brandon and Krichinsky, Alan and Hogue, Karen and Lockhart, Madeline L. and Mercer, David J. and Milojevich, Allyn and Stinnett, Jacob and Reed, Richard and Worrall, Andrew},
+doi = {10.2172/1818724},
+url = {https://www.osti.gov/biblio/1818724},
+number = {ORNL/TM-2020/1866},
+institution={Oak Ridge National Laboratory},
+address={Oak Ridge, TN, USA},
+year = {2021},
+month = {May}
+}
+
 @phdthesis{reed2019improvements,
   title={Improvements to the discrete generalized multigroup method based on proper orthogonal decomposition and SPH factors},
   author={Reed, Richard},
@@ -33,14 +89,17 @@
 }
 
 @article{reed2019effectiveness,
-  title={Effectiveness of the discrete generalized multigroup method based on truncated, POD-driven basis sets},
-  author={Reed, Richard L and Roberts, Jeremy A},
-  journal={Annals of Nuclear Energy},
-  volume={126},
-  pages={253--261},
-  year={2019},
-  month={April},
-  publisher={Elsevier}
+title = {Effectiveness of the discrete generalized multigroup method based on truncated, POD-driven basis sets},
+journal = {Annals of Nuclear Energy},
+volume = {126},
+pages = {253-261},
+year = {2019},
+issn = {0306-4549},
+doi = {https://doi.org/10.1016/j.anucene.2018.11.029},
+url = {https://www.sciencedirect.com/science/article/pii/S0306454918306273},
+author = {Richard L. Reed and Jeremy A. Roberts},
+keywords = {Energy expansion, Discrete generalized multigroup, Proper orthogonal decomposition},
+abstract = {Presented is the evaluation of the discrete generalized multigroup (DGM) method using a truncated basis constructed from proper orthogonal decomposition (POD). The DGM method uses an orthogonal basis to collapse fine-group fluxes and cross sections to a coarse-group structure with higher order modes in each coarse-group. By solving the course-group equation, an approximation to the fine-group flux can be reconstructed from the course-group flux. This approximation is used to recollapse the cross sections, which leads to an improved approximation. Past development of the DGM method used the discrete Legendre polynomials (DLPs), which do not perform well under truncation, for approximating the spectral shape of the flux. In this work, basis sets constructed using POD were used for the DGM method for several fine-group structures. The POD basis incorporates spectral information from small, representative problems, which are designed to capture spectral information from the full problem. The most effective, practical POD basis approximated the fission density with an error of less than 0.01% relative to a reference problem using approximately 6 degrees of freedom per coarse-group for all fine-group structures. The reference chosen was a 1-D, repeating lattice of 10 pins of UO2 fuel cells adjacent to 10 pins of 7.0% MOX fuel pins. The DGM method when subject to truncation performed far better using POD basis sets than when used with the DLP basis.}
 }
 
 @InProceedings{Reed2018enhancements,
@@ -100,14 +159,17 @@
 }
 
 @article{reed2017application,
-  title={Application of the Karhunen--Lo{\`e}ve Transform to the C5G7 benchmark in the response matrix method},
-  author={Reed, Richard L. and Roberts, Jeremy A.},
-  journal={Annals of Nuclear Energy},
-  volume={103},
-  pages={350--355},
-  year={2017},
-  month={May},
-  publisher={Elsevier}
+title = {Application of the Karhunen–Loève Transform to the C5G7 benchmark in the response matrix method},
+journal = {Annals of Nuclear Energy},
+volume = {103},
+pages = {350-355},
+year = {2017},
+issn = {0306-4549},
+doi = {https://doi.org/10.1016/j.anucene.2017.01.032},
+url = {https://www.sciencedirect.com/science/article/pii/S0306454917300166},
+author = {Richard L. Reed and Jeremy A. Roberts},
+keywords = {Basis generation, Expansion in energy, Response matrix method, Karhunen–Loève Transform},
+abstract = {Presented is an application of the Karhunen–Loève Transform (KLT) for treatment of the energy variable in response matrix methods to a 44-group version of the 2-D C5G7 benchmark problem. Response matrix methods are based on the partitioning of global domains into independent nodes linked via boundary conditions approximated by truncated expansions of the phase space in orthogonal bases. Here, the KLT was used to produce basis sets appropriate for the energy variable based on “snapshots.” The method of snapshots employs small, representative problems to provide input spectra with which the KLT produces an orthogonal basis for the application. For this study, several computationally small models were defined, and the success of the corresponding basis was compared to the reference (full-multigroup) solution. The best performing basis sets were generated using information from both the scalar flux and the partial current, and typically included information from each unique material (e.g., a UO2 pin cell) in the application problem and junctions between such materials (e.g., a UO2 adjacent to a MOX pin cell). In general, the KLT performed better than the standard discrete Legendre Polynomials (DLPs) as well as “modified” DLPs with proper snapshot selection. The largest errors were found at the material junctions, precisely where spectral gradients are greatest.}
 }
 
 @Article{Reed2016accuracy,
@@ -166,14 +228,17 @@
 }
 
 @article{reed2015energy,
-  title={An energy basis for response matrix methods based on the karhunen--lo{\'e}ve transform},
-  author={Reed, Richard L and Roberts, Jeremy A},
-  journal={Annals of Nuclear Energy},
-  volume={78},
-  pages={70--80},
-  year={2015},
-  month={April},
-  publisher={Elsevier}
+title = {An energy basis for response matrix methods based on the Karhunen–Loéve Transform},
+journal = {Annals of Nuclear Energy},
+volume = {78},
+pages = {70-80},
+year = {2015},
+issn = {0306-4549},
+doi = {https://doi.org/10.1016/j.anucene.2014.12.016},
+url = {https://www.sciencedirect.com/science/article/pii/S0306454914006641},
+author = {Richard L. Reed and Jeremy A. Roberts},
+keywords = {Response matrix method, Expansion in energy, Karhunen–Loève Transform},
+abstract = {A new energy expansion technique based on the Karhunen–Loéve Transform (KLT) is developed for use in the eigenvalue response matrix method (ERMM). ERMM is a spatial domain decomposition method that links nodes using truncated expansions of boundary fluxes in each phase-space variable. Energy bases constructed using KLT can capture a comparatively large amount of spectral information in the first several basis functions, thus permitting low-order expansions with less error than expansions based on the more traditional Discrete Legendre Polynomials (DLP) or modified DLP’s. The KLT basis functions are generated from representative energy spectra (called snapshots) for either the entire core model or various smaller models (called snapshot models) representing core components, e.g., pins or assemblies. Energy bases using KLT are compared to alternative bases using two test problems in either a 44-group or 238-group format. The results indicate that the performance of the KLT bases is not strongly dependent on the number of groups, and, hence, many-group fidelity can be captured in the first few basis functions. Using snapshots from the full model of interest to generate the basis functions can yield sub-0.1% relative error in the pin fission density in less than 10 energy degrees of freedom with a 238-group library. Using more practical snapshot models, e.g., assembly models for a full core problem, the same error can be reached with as few as 15 energy degrees of freedom.}
 }
 
 @article{reed2014energy,
